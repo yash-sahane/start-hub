@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
   return (
-    <div>layout</div>
+    <>
+      <Navbar />
+      {children}
+    </>
   )
 }
 
